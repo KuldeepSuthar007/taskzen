@@ -1,0 +1,80 @@
+.card {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 50vw;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+
+.form input {
+  border: none;
+  outline: none;
+  background: transparent;
+  text-align: left;
+  font-size: 18px;
+  margin: 10px 0px 0px 10px;
+}
+.form textarea {
+  width: 90%;
+  height: 268px;
+  border: none;
+  outline: none;
+  background: transparent;
+  resize: none;
+  font-family: Roboto, Arial, sans-serif;
+  padding: 10px;
+  font-size: 17px;
+}
+
+.form label {
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5rem;
+  color: #202124;
+  margin: 5px 10px;
+}
+.choosecolor {
+  display: flex;
+}
+.bottombox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 12px;
+}
+.group_logo {
+  width: 23px;
+  height: 23px;
+  background: #0047ff;
+  border-radius: 50%;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.btn {
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 20px;
+  color: black;
+  margin: 0px 10px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .card {
+    width: -webkit-fill-available;
+    margin: 15px;
+  }
+  .group_logo {
+    width: 17px;
+    height: 17px;
+  }
+  .form textarea {
+    height: 125px;
+  }
+  .form input {
+    margin-left: 7px;
+  }
+}

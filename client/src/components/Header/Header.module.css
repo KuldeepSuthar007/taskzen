@@ -1,0 +1,99 @@
+.top {
+  padding: 8px;
+  display: flex;
+}
+.topleft {
+  display: flex;
+  align-items: center;
+}
+.menu img {
+  width: 24px;
+  margin: 0px 10px;
+  cursor: pointer;
+}
+.logobox div img {
+  width: 35px;
+  height: 35px;
+}
+.logobox div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logobox div span {
+  display: inline-block;
+  font-family: "Product Sans", Arial, sans-serif;
+  font-size: 22px;
+  line-height: 24px;
+  padding-left: 8px;
+  position: relative;
+  top: -1.5px;
+  vertical-align: middle;
+  color: #5f6368;
+}
+
+.searchbox {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  border-radius: 10px;
+  background-color: white;
+  padding: 5px;
+  margin: 0px 20px;
+  background-color: #f1f3f4;
+}
+.searchbox input {
+  width: 50vw;
+  height: 40px;
+  padding-left: 10px;
+  border: none;
+  outline: none;
+  font-family: Google Sans, Roboto, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  background: transparent;
+}
+.searchbox button {
+  border: none;
+  outline: none;
+  background-color: white;
+  background: transparent;
+}
+.searchbox button img {
+  width: 30px;
+}
+.h_btn {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: black;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin: 0px 10px;
+}
+.bottom {
+  text-align: right;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .searchbox {
+    order: 2;
+  }
+  .top {
+    flex-direction: column;
+  }
+  .searchbox {
+    margin: 16px auto;
+  }
+  .searchbox input {
+    width: 50vw;
+    margin: 0px auto;
+  }
+}

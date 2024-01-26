@@ -1,0 +1,76 @@
+.card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  margin: 14px;
+  width: 240px;
+  padding: 5px;
+}
+.cardbox {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card:hover {
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.checkbox input {
+  width: 14px;
+}
+.title {
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.5rem;
+  margin: 5px 10px;
+}
+.content {
+  font-family: Roboto, Arial, sans-serif;
+  padding: 10px;
+  font-size: 16px;
+}
+.choosecolor {
+  display: flex;
+}
+
+.colorbox {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+}
+
+.group_logo {
+  width: 20px;
+  height: 20px;
+  background: #0047ff;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.btn {
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 20px;
+  color: black;
+  margin: 10px;
+}
+.status {
+  text-align: right;
+  font-size: 14px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .card {
+    width: -webkit-fill-available;
+  }
+  .checkbox input {
+    width: 18px;
+  }
+  .group_logo {
+    width: 17px;
+    height: 17px;
+  }
+}
